@@ -44,7 +44,7 @@ rm -rf $BUILD_PATH && mkdir -p $BUILD_PATH
 echo
 
 echo "Transferring the source: $SOURCE_PATH -> $BUILD_PATH. Please wait..."
-cd $BUILD_PATH && cp -rp $SOURCE_PATH . && cd src
+cd $BUILD_PATH && cp -rp $SOURCE_PATH . && cd $SOURCE_PATH
 echo
 
 echo "Compiling PhantomJS..." && sleep 1
